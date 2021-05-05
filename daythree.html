@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--An HTML form is used to collect user input. The user input is most often sent to a server for processing.-->
+    <form>
+        <!--HTML Input Types: Here are the different input types you can use in HTML:-->
+        <!--The input value attribute specifies an initial value for an input field:-->
+        <input type="text" name="fname" placeholder="First name" id="fname" value="xyz">
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="date">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="email">
+        <br>
+        <input type="file">
+        <br>
+        <input type="image">
+        <br>
+        <input type="number">
+        <br>
+        <input type="button">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="color">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="hidden">
+        <br>
+        <input type="month">
+        <br>
+        <input type="number">
+        <br> 
+        <input type="range">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="tel">
+        <br>
+        <input type="time">
+        <br>
+        <input type="url">
+        <br>
+        <input type="week">
+        <br>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <br>
+        <textarea rows="2" cols="10"></textarea> 
+        <br>
+    <input list="num">
+    <datalist id="num">
+        <option value="1">
+        <option value="2">
+        <option value="3"> 
+    </datalist>
+    <br>
+    <button>Sign up</button>
+    <fieldset>
+        <legend>Sign Up</legend>
+
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Enter Your first Name" name="fname" required>
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Enter Your Last Name" name="Lname" required>
+        <label for="age">Age</label>
+        <input type="text" placeholder="Enter Your Age" name="age" maxlength="2" minlength="1" required>
+        <br>
+        <input type="submit">
+        
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>
+<style>
+    input{
+        margin: 10px 0px;
+    }
+</style>
