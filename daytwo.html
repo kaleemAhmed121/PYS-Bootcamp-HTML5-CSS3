@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:-->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black Hot Coffee</dd>
+        <dt>Tea</dt>
+        <dd>Cold Tea</dd>
+    </dl>
+
+ <!--Nested list--> 
+    <ul>
+        <li>Coffee</li>
+        <li>
+            Tea
+            <ul>
+                <li>Green Tea</li>
+                <li>Black Tea</li>
+            </ul>
+        </li>
+    </ul> 
+  <!--Images can improve the design and the appearance of a web page.--> 
+    <img src="img/1.jpg" width="100px" height="50px" alt="error"  class="roto">
+
+    <img src="img/2.jpg" width="100px" height="50px" alt="error" >
+
+
+ <!--HTML tables allow web developers to arrange data into rows and columns.  -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Ahmad Khan</td>
+            <td>22</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Ali Khan</td>
+            <td>22</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Bilal Khan</td>
+            <td>22</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Fatima Khan</td>
+            <td>22</td>
+            <td>Female</td>
+        </tr>
+
+    </table>
+<!-- The <div> tag defines a division or a section in an HTML document.
+
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+The <div> tag is easily styled by using the class or id attribute.
+
+Any sort of content can be put inside the <div> tag! -->
+<div class="cont"  id="demo">
+    <h1>first Div</h1>
+    <h1>first Div</h1>
+</div>
+<div  class="cont">
+    <h1>Second Div</h1>
+</div>
+
+<div  class="cont">
+    <h1>Third Div</h1>
+</div>
+
+<p>H<sub>2</sub>O</p>
+
+<p>2<sup>2</sup></p>
+</body>
+</html>
+
+<style>
+#demo{
+    color: Red;
+    font-size: 50px;
+    background-color: blue;
+}
+
+    .cont{
+        background-color: pink;
+    }
+    img{
+         margin-top: 40px;
+         margin-left: 200px;
+         animation: roto 5s infinite linear;
+       
+    }
+
+@keyframes roto{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+   
+
+    img:hover{
+        
+        animation: roto 5s infinite linear;
+    }
+
+
+
+    table,th,td{
+        border: 2px solid black;
+    }
+table{
+    border-collapse: collapse;
+}
+   
+td{
+padding: 10px 5px 10px 5px;
+}
+    
+</style>
